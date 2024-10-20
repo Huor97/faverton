@@ -1,0 +1,35 @@
+{
+  "name": "realestate-public-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.18.3",
+    "@nuxtjs/cloudinary": "^3.1.0",
+    "@nuxtjs/supabase": "^1.4.0",
+    "@tresjs/cientos": "^3.9.0",
+    "@tresjs/nuxt": "^3.0.2",
+    "@tresjs/post-processing": "^0.7.1",
+    "cloudinary": "^2.5.0",
+    "gsap": "^3.12.5",
+    "nuxt": "^3.12.4",
+    "vue": "latest"
+  },
+  "packageManager": "pnpm@9.5.0+sha1.8c155dc114e1689d18937974f6571e0ceee66f1d",
+  "devDependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@types/three": "^0.167.1",
+    "happy-dom": "^14.12.3",
+    "three": "^0.167.1",
+    "unplugin-auto-import": "^0.18.2",
+    "vitest": "^2.0.5"
+  }
+}
