@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     `@nuxt/eslint`,
     `@nuxt/ui`,
     `@nuxt/devtools`,
-    `@nuxtjs/supabase`,
     `@nuxtjs/cloudinary`,
     `@tresjs/nuxt`,
   ],
